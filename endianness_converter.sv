@@ -1,9 +1,9 @@
 module endianness_converter(
     input wire clk,
-    input reg[31:0] word,
+    input wire[31:0] word,
     input wire endianness_in,
     input wire endianness_out,
-    output reg[31:0] converted_word
+    output wire[31:0] converted_word
 );
 
 // 1 is big
