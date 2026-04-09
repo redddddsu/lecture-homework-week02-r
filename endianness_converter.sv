@@ -3,7 +3,7 @@ module endianness_converter(
     input wire[31:0] word,
     input wire endianness_in,
     input wire endianness_out,
-    output wire[31:0] converted_word
+    output reg[31:0] converted_word
 );
 
 // 1 is big
